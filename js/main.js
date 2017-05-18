@@ -3,7 +3,6 @@ function mostrarYNo(){
   var mostrar = document.getElementById('doton');
     if(mostrar.style.display === 'none')
     mostrar.style.display = 'block';
-
 }
 
 /* No Funciona T.T
@@ -27,4 +26,21 @@ function fueraDeMi(){
 function agregar(){
   var cajaDatos = document.getElementById('');
 }
+*/
+
+/*
+function mostrarYNo(){
+  var mostrar = document.getElementById('doton');
+  mostrar.addEventListener('click', function(){
+
+    var tarea = document.getElementById('textarea');
+    var boton2 = document.getElementById('doton');
+  
+    boton2.onclick = function(){
+      var cajaUsuario = document.getElementById('textarea').value;
+    }
+
+  });
+}
+mostrarYNo();
 */
