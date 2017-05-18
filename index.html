@@ -6,12 +6,14 @@
 	<title>E Evaluado - 17 Mayo</title>
 </head>
 <body>
-	<input onclick="mostrarYNo()" onmouseover="fueraDeMi()" placeholder="Añadir una lista">
-		<button id="doton" style="display:none;" onclick="">Añadir una Tarjeta</button>
-		<div id="" class=""></div>
-			<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
-		<div>
-			<input type="submit" value="Añadir" />
+		<div id="cajaDatos">
+			<section class="datoCaja">
+				<div id="agregarDatos" class="lista"></div>
+				<input onclick="mostrarYNo()" onmouseover="fueraDeMi()" placeholder="Añadir una lista" id="ingresoDato">
+				<button class="boton" type="submit" id="doton" style="display:none;">Añadir una Tarjeta</button>
+				<div id="" class=""></div>
+				<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+			</section>
 		</div>
 	</form>
 	<script src="js/main.js"></script>
